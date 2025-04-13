@@ -24,3 +24,45 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+.cyber-main {
+  background: #0a0a12;
+  color: #e0e0ff;
+  font-family: 'Courier New', monospace;
+}
+
+.neon-cyan { color: #0ff; text-shadow: 0 0 10px #0ff; }
+.neon-pink { color: #f0f; text-shadow: 0 0 10px #f0f; }
+.neon-yellow { color: #ff0; text-shadow: 0 0 10px #ff0; }
+
+.cyber-button {
+  background: #1a1a2f;
+  border: 2px solid #0ff;
+  padding: 12px 24px;
+  color: #0ff;
+  transition: all 0.3s;
+}
+
+.cyber-button:hover {
+  background: #0ff;
+  color: #1a1a2f;
+  box-shadow: 0 0 20px #0ff;
+}
+
+.cyber-card {
+  background: rgba(16, 16, 32, 0.9);
+  border: 1px solid #0ff;
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  position: relative;
+}
+
+.cyber-card::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: linear-gradient(45deg, #0ff, #f0f);
+  z-index: -1;
+}
