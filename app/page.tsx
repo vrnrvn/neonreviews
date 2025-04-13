@@ -678,7 +678,7 @@ function App() {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
             <h3 className="text-xl text-cyan-400 mb-2">No shows found</h3>
-            <p className="text-cyan-600 mb-6">Your search or filter combination didn't match any shows in our database.</p>
+            <p className="text-cyan-600 mb-6">Your search or filter combination did not match any shows in our database.</p>
             <button 
               className="px-6 py-3 bg-gradient-to-r from-cyan-600 to-fuchsia-600 hover:from-cyan-500 hover:to-fuchsia-500 text-black font-bold rounded-lg transition-all"
               onClick={resetFilters}
